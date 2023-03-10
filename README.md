@@ -11,9 +11,15 @@
 
 Instead of directly copying the contents in a flash, this program is intended to type each character which simulates human like typing event. 
 
-Here's why:
+Motivation:
 
-* This can be used to make screen records or present coding from clipboard without user interference
+* This can be used for screen records or present coding from clipboard without user interference
+* Sometimes pasting just doesn't work.
+	* One example is in system password fields on OSX.
+	* Sometimes you're working in a VM and the clipboard isn't shared.
+	* Other times you're working via Remote Desktop and again, the clipboard doesn't work in password boxes such as the system login prompts.
+	* Connected via RDP and clipboard sharing is disabled and so is mounting of local drives. If the system doesn't have internet access there's no easy way to get things like payloads or Powershell scripts onto it... until now.
+* Ethical Hacking
 * Manual labor can be reduced.
 
 
